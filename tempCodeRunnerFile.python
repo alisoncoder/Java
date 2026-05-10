@@ -1,11 +1,3 @@
-a = 5
-print("type of a: ", type(a))
+num = int(input("Enter input"))
 
-b =2.5
-print("type of b: ", type(b))
-
-c= "codingal"
-print("type of c: ", type(c))
-
-d= True
-print("type of d: ", type(d))
+num += 0
