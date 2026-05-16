@@ -1,7 +1,6 @@
-```java
 import java.util.Scanner;
 
-// Creating an interface
+// Creating interface
 interface Vehicle {
     void changeGear(int a);
     void speedUp(int a);
@@ -54,13 +53,13 @@ class Truck implements Vehicle {
 }
 
 // Main class
-public class Main {
+public class Truckpro {
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
 
-        // Bike input
+        // Bike
         Bike bike = new Bike();
 
         System.out.println("Enter Bike Gear:");
@@ -75,7 +74,7 @@ public class Main {
         System.out.println("\nCurrent Bike State:");
         bike.printState();
 
-        // Truck input
+        // Truck
         Truck truck = new Truck();
 
         System.out.println("\nEnter Truck Gear:");
@@ -93,5 +92,3 @@ public class Main {
         input.close();
     }
 }
-```
-
